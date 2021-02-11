@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <header>
+        
+        <nav>
+            <a class="logo" href="./index.html">Web<span class="color-web">Studio</span></a>
+            <ul>
+                <li>
+                   <a class="log-studio" href="#">Студия</a>
+                </li>
+                <li>
+                    <a class="log-studio" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li>
+                    <a class="log-studio" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <ul>
+            <li><a class="log-studio-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="log-studio-mail" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <section class="back-color">
+            <h1 class="caption-text">Эффективные решения <br> для вашего бизнеса</h1>
+            <button class="button" type="submit">Заказать услугу</button>
+        </section>
+
+        <section>
+            <h2 class="hidden"></h2>
+            <ul>
+                <li>
+                    <h3 class="advantage-color">Внимание к деталям</h3>
+                    <p class="advantage-about-color">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li>
+                    <h3 class="advantage-color">Пунктуальность</h3>
+                    <p class="advantage-about-color">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li>
+                    <h3 class="advantage-color">Планирование</h3>
+                    <p class="advantage-about-color">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li>
+                    <h3 class="advantage-color">Современные технологии</h3>
+                    <p class="advantage-about-color">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2 class="advantage-color-first">Чем мы занимаемся</h2>
+            <ul>
+                <!-- на вяский случай оборачиваю картинки в ссылки, так как в перспективе с них может быть переход на проекты -->
+                <li>
+                    <img src="./img/pic.png" alt="пишет код на планшете" width="370">
+                </li>
+                <li>
+                    <img src="./img/pic2.png" alt="телефон с ноутбуком" width="370">
+                </li>
+                <li>
+                    <img src="./img/pic3.png" alt="изображение на планшете" width="370">
+                </li>
+            </ul>
+        </section>
+
+        <section class="back-color-ourteam">
+            <h2 class="ourteam">Наша команда</h2>
+            <ul>
+                <!-- Аналогична ситуация с ссылками. Имя и фамилию обернул в P. Возможно, стоило в h3. Но имя вроде не заголовок -->
+                <li class="back-color-manager">
+                    <img src="./img/ihor.jpg" alt="Игорь Демьяненко" width="270">
+                    <h3>Игорь Демьяненко</h3>
+                    <p>Product Designer</p>
+                </li>
+                <li class="back-color-manager">
+                    <img src="./img/olha.png" alt="Ольга Репина" width="270">
+                    <h3>Ольга Репина</h3>
+                    <p>Frontend Developer</p>
+                   </li>
+                <li class="back-color-manager">
+                    <img src="./img/Nik.png" alt="Николай Тарасов" width="270">
+                    <h3>Николай Тарасов</h3>
+                    <p>Marketing</p>
+                </li>
+                <li class="back-color-manager">
+                    <img src="./img/Mike.png" alt="Михаил Ермаков" width="270">
+                    <h3>Михаил Ермаков</h3>
+                    <p>UI Designer</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer class="back-ftr">
+        <a class="logo-ft" href="./index.html">Web<span class="logo-ft-sudio">Studio</span></a>
+        <address>
+            <p class="adrs-color">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul>   
+                <li>
+                    <a class="mail" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <a class="mail" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </footer>
+</body>
+</html>

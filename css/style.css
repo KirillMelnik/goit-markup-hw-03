@@ -1,0 +1,253 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-web {
+  color: #212121;
+}
+
+.logo,
+.logo-ft {
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo,
+.logo-ft {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.log-studio {
+  color: #212121;
+}
+
+.log-studio:hover {
+  color: #2196f3;
+}
+
+.log-studio:focus {
+  color: #2196f3;
+}
+
+.log-studio-mail {
+  color: #757575;
+}
+
+:current (.log-studio .button-style-port) {
+  color: #2196f3;
+}
+
+.log-studio-mail:hover {
+  color: #2196f3;
+}
+
+.back-color {
+  background-color: #2f303a;
+}
+
+.caption-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.advantage-color {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advantage-color-first,
+.ourteam {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.advantage-about-color {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.back-color-ourteam {
+  background-color: #f5f4fa;
+}
+
+/* .ourteam {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+} */
+
+.back-color-manager {
+  background-color: #ffffff;
+}
+
+.back-color-manager > h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.back-color-manager > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.back-ftr {
+  background-color: #2f303a;
+}
+
+/* .logo-ft {
+  text-decoration: none;
+  color: #2196F3;
+} */
+
+.logo-ft-sudio {
+  color: #ffffff;
+}
+
+.adrs-color {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.mail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.log-studio,
+.log-studio-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* portfolio.css */
+
+.hidden {
+  visibility: hidden;
+}
+
+.port-align-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.port-align-text > li {
+  display: block;
+}
+
+.button-style-port {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  border: none;
+  border-radius: 4px;
+  color: var(--black-text);
+}
+
+.button-style-port:hover {
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+
+.button-style-port:focus {
+  border: none;
+  border-radius: 4px;
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+
+.caption-port {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--black-text);
+}
+
+.subject-port {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: var(--pepel-text-phone);
+}
