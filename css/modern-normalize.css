@@ -1,28 +1,5 @@
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
-/* ===== ДОПОЛНЕНИЯ от Sandra Hrevtsova ===== */
-
-/* обнуляем дефолтные маркеры у всех маркированных списков */
-/* ul {
-  list-style: none;
-} */
-
-/* обнуляем дефолтные подчеркивания у всех ссылок */
-a {
-  text-decoration: none;
-}
-
-/* code,
-kbd,
-samp,
-pre {
-  font-family: 'Open Sans', sans-serif;
-  /* font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; 1 */
-  font-size: 1em; /* 2 */
-} */
-
-/* ===== ДОПОЛНЕНИЯ от Sandra Hrevtsova ===== */
-
 /*
 Document
 ========
@@ -68,7 +45,6 @@ Remove the margin in all browsers.
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 /**
@@ -122,6 +98,15 @@ strong {
 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 2. Correct the odd 'em' font sizing in all browsers.
 */
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo,
+    monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
 
 /**
 Add the correct font size in all browsers.
@@ -185,14 +170,6 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
-}
-
-address {
-  font-style: normal;
-}
-
-ul {
-  list-style: none;
 }
 
 /**

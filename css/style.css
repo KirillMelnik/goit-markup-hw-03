@@ -1,5 +1,21 @@
+/* Утилиты */
+
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  padding: 0px;
+  margin: 0px;
 }
 
 .color-web {
@@ -40,41 +56,63 @@ body {
   color: #757575;
 }
 
-:current (.log-studio .button-style-port) {
+/* :current (.log-studio .button-style-port) {
   color: #2196f3;
-}
+} */
 
 .log-studio-mail:hover {
   color: #2196f3;
 }
 
 .back-color {
+  /* width: 1600px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   background-color: #2f303a;
 }
 
 .caption-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 200px;
+  margin-bottom: 30px;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-
-  /* or 136% */
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .button {
+  display: inline-block;
+  min-width: 200px;
+  min-height: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
+  margin-bottom: 200px;
+  padding: 10px 32px;
   line-height: 30px;
   color: #ffffff;
   background-color: #2196f3;
+  border-radius: 4px;
+  border: none;
+}
+
+.button:active {
+  color: #2196f3;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
 }
 
 .advantage-color {
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -82,6 +120,33 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+}
+
+.advantage-color-first {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.what-we-do {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.what-we-do-position:not(:last-child) {
+  margin-right: 30px;
+}
+
+.back-color-manager:not(:last-child) {
+  margin-right: 30px;
+}
+
+.names {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.function {
+  padding-bottom: 30px;
 }
 
 .advantage-color-first,
@@ -93,6 +158,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+.ourteam {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.ourteam > ul {
+  padding-bottom: 94px;
 }
 
 .advantage-about-color {
@@ -149,13 +223,13 @@ body {
 }
 
 .back-ftr {
-  background-color: #2f303a;
+  /* width: 1600px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--background-section-one);
 }
-
-/* .logo-ft {
-  text-decoration: none;
-  color: #2196F3;
-} */
 
 .logo-ft-sudio {
   color: #ffffff;
@@ -195,17 +269,26 @@ body {
 /* portfolio.css */
 
 .hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.port-align-text {
+/* .port-align-text {
   display: flex;
   flex-wrap: wrap;
 }
 
 .port-align-text > li {
   display: block;
-}
+} */
 
 .button-style-port {
   display: block;
@@ -250,4 +333,92 @@ body {
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: var(--pepel-text-phone);
+}
+
+/* Позиционирование элементов div.container + margin padding */
+
+.container-second {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  outline: 2px solid tomato;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.flex-nav,
+.flex-ul,
+.flex-mail {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 93px;
+}
+
+.advantage {
+  display: flex;
+  margin-top: 94px;
+  justify-content: center;
+}
+
+.ourteam-container {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.logo-ft {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.adrs-color {
+  margin-bottom: 9px;
+}
+
+.mail-ft {
+  margin-bottom: 9px;
+}
+
+.mail-tel {
+  padding-bottom: 60px;
+}
+
+.port-nav {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.position:not(:last-child) {
+  margin-right: 50px;
+}
+
+.flex-mail {
+  margin-left: auto;
+}
+
+.flex-mail .log-studio-display + .log-studio-display {
+  margin-left: 50px;
+}
+
+.advantage-position {
+  width: 270px;
 }
