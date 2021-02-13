@@ -281,17 +281,9 @@ p {
   overflow: hidden;
 }
 
-/* .port-align-text {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.port-align-text > li {
-  display: block;
-} */
-
 .button-style-port {
   display: block;
+  padding: 6px 22px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -349,7 +341,7 @@ p {
 }
 
 .container {
-  width: 1200px;
+  width: 12px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -421,4 +413,27 @@ p {
 
 .advantage-position {
   width: 270px;
+}
+
+.border {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.port-align-text {
+  display: flex;
+  justify-content: center;
+}
+
+.port-align-text li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.port-align-advantage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.port-align-advantage li:not(:last-child) {
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
