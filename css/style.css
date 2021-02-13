@@ -305,13 +305,17 @@ p {
   background-color: var(--blue-text);
 }
 
+.caption-port:first-child {
+  margin-bottom: 4px;
+}
+
 .caption-port {
+  margin-top: 20px;
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-
-  /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--black-text);
 }
@@ -329,19 +333,12 @@ p {
 
 /* Позиционирование элементов div.container + margin padding */
 
-.container-second {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1440px;
-  outline: 2px solid tomato;
-}
-
 .header {
   background-color: #fff;
 }
 
 .container {
-  width: 12px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -433,7 +430,19 @@ p {
   flex-wrap: wrap;
 }
 
-.port-align-advantage li:not(:last-child) {
+.port-aline-width {
+  width: 370px;
+}
+
+.port-aline-width {
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.port-aline-width:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.port-aline-width:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
