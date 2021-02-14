@@ -33,8 +33,6 @@ p {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-
-  /* identical to box height */
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #2196f3;
@@ -56,16 +54,11 @@ p {
   color: #757575;
 }
 
-/* :current (.log-studio .button-style-port) {
-  color: #2196f3;
-} */
-
 .log-studio-mail:hover {
   color: #2196f3;
 }
 
 .back-color {
-  /* width: 1600px; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -75,8 +68,6 @@ p {
 }
 
 .caption-text {
-  margin-top: 0;
-  margin-bottom: 0;
   padding-top: 200px;
   margin-bottom: 30px;
   font-style: normal;
@@ -174,8 +165,6 @@ p {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
-  /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -183,16 +172,6 @@ p {
 .back-color-ourteam {
   background-color: #f5f4fa;
 }
-
-/* .ourteam {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-} */
 
 .back-color-manager {
   background-color: #ffffff;
@@ -203,8 +182,6 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -215,15 +192,12 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 .back-ftr {
-  /* width: 1600px; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -240,8 +214,6 @@ p {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
-  /* or 171% */
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -251,8 +223,6 @@ p {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
-  /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -265,8 +235,6 @@ p {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-
-/* portfolio.css */
 
 .hidden {
   position: absolute;
@@ -305,13 +273,10 @@ p {
   background-color: var(--blue-text);
 }
 
-.caption-port:first-child {
-  margin-bottom: 4px;
-}
-
 .caption-port {
   margin-top: 20px;
-  margin-bottom: 9px;
+  margin-bottom: 4px;
+  padding-left: 24px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -321,20 +286,18 @@ p {
 }
 
 .subject-port {
+  padding-left: 24px;
+  padding-bottom: 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-
-  /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: var(--pepel-text-phone);
 }
 
-/* Позиционирование элементов div.container + margin padding */
-
 .header {
-  background-color: #fff;
+  background-color: var(--white-text);
 }
 
 .container {
@@ -428,6 +391,7 @@ p {
 .port-align-advantage {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 79px;
 }
 
 .port-aline-width {
@@ -437,6 +401,7 @@ p {
 .port-aline-width {
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid var(--color-line);
 }
 
 .port-aline-width:nth-child(3n) {
