@@ -8,8 +8,8 @@ ul {
   list-style: none;
 }
 
-main {
-  background-color: #e5e5e5;
+img {
+  display: block;
 }
 
 ul,
@@ -43,6 +43,7 @@ p {
 }
 
 .log-studio {
+  padding: 32px 0px;
   color: #212121;
 }
 
@@ -86,17 +87,19 @@ p {
 .button {
   display: inline-block;
   min-width: 200px;
-  min-height: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  margin-bottom: 200px;
   padding: 10px 32px;
   line-height: 30px;
   color: #ffffff;
   background-color: #2196f3;
   border-radius: 4px;
   border: none;
+}
+
+.padding-button {
+  padding-bottom: 200px;
 }
 
 .button:active {
@@ -118,8 +121,8 @@ p {
 }
 
 .advantage-color-first {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .what-we-do {
@@ -135,13 +138,29 @@ p {
   margin-right: 30px;
 }
 
+.names-function {
+  padding: 30px 0px;
+  text-align: center;
+}
+
 .names {
-  margin-top: 30px;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
   margin-bottom: 10px;
+  color: #212121;
 }
 
 .function {
-  padding-bottom: 30px;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .advantage-color-first,
@@ -277,10 +296,12 @@ p {
   background-color: var(--blue-text);
 }
 
+.subject-caption {
+  padding: 20px 24px;
+}
+
 .caption-port {
-  margin-top: 20px;
   margin-bottom: 4px;
-  padding-left: 24px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -290,8 +311,6 @@ p {
 }
 
 .subject-port {
-  padding-left: 24px;
-  padding-bottom: 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -314,8 +333,6 @@ p {
 
 .flex {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .flex-nav,
@@ -326,12 +343,14 @@ p {
 }
 
 .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
 }
 
 .advantage {
   display: flex;
-  margin-top: 94px;
+  padding-top: 94px;
   justify-content: center;
 }
 
