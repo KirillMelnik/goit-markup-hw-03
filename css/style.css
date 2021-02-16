@@ -43,6 +43,7 @@ p {
 }
 
 .log-studio {
+  text-decoration: none;
   padding: 32px 0px;
   color: #212121;
 }
@@ -64,6 +65,7 @@ p {
 }
 
 .back-color {
+  padding-top: 200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -73,7 +75,6 @@ p {
 }
 
 .caption-text {
-  padding-top: 200px;
   margin-bottom: 30px;
   font-style: normal;
   font-weight: 900;
@@ -109,6 +110,10 @@ p {
   border-radius: 4px;
 }
 
+.section {
+  padding-top: 94px;
+}
+
 .advantage-color {
   margin-bottom: 10px;
   font-style: normal;
@@ -121,13 +126,18 @@ p {
 }
 
 .advantage-color-first {
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 50px;
+}
+
+.section-second {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .what-we-do {
   display: flex;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .what-we-do-position:not(:last-child) {
@@ -175,7 +185,6 @@ p {
 }
 
 .ourteam {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -193,6 +202,8 @@ p {
 }
 
 .back-color-ourteam {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -221,6 +232,8 @@ p {
 }
 
 .back-ftr {
+  padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -242,6 +255,7 @@ p {
 }
 
 .mail {
+  text-decoration: none;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -252,6 +266,7 @@ p {
 
 .log-studio,
 .log-studio-mail {
+  text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -350,18 +365,16 @@ p {
 
 .advantage {
   display: flex;
-  padding-top: 94px;
+  /* padding-top: 94px; */
   justify-content: center;
 }
 
 .ourteam-container {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .logo-ft {
   display: inline-block;
-  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -373,12 +386,12 @@ p {
   margin-bottom: 9px;
 }
 
-.mail-tel {
-  padding-bottom: 60px;
+.port-back-color {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .port-nav {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -414,7 +427,7 @@ p {
 .port-align-advantage {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 79px;
+  /* padding-bottom: 79px; */
 }
 
 .port-aline-width {
