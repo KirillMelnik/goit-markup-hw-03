@@ -43,6 +43,7 @@ p {
 }
 
 .log-studio {
+  display: block;
   text-decoration: none;
   padding: 32px 0px;
   color: #212121;
@@ -126,8 +127,7 @@ p {
 }
 
 .advantage-color-first {
-  /* padding-top: 94px; */
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .section-second {
@@ -264,6 +264,14 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.mail:hover {
+  color: #2196f3;
+}
+
+.mail:focus {
+  color: #2196f3;
+}
+
 .log-studio,
 .log-studio-mail {
   text-decoration: none;
@@ -358,6 +366,7 @@ p {
 }
 
 .logo {
+  display: block;
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
