@@ -44,7 +44,6 @@ p {
 
 .log-studio {
   text-decoration: none;
-  padding: 32px 0px;
   color: #212121;
 }
 
@@ -275,6 +274,7 @@ p {
 
 .log-studio,
 .log-studio-mail {
+  padding: 32px 0px;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
