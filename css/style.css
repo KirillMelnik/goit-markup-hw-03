@@ -50,6 +50,7 @@ p {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #2196f3;
+  padding: 24px 0;
 }
 
 .log-studio {
@@ -69,15 +70,14 @@ p {
   color: #757575;
 }
 
-.log-studio-mail:hover {
+.log-studio-mail:hover,
+.log-studio-mail:focus {
   color: #2196f3;
 }
 
 .back-color {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
